@@ -1,5 +1,13 @@
 #!/bin/bash
 
+brew install fd
+brew install fzf
+brew install eza
+brew install kitty
+brew install neovim
+brew install node@22
+brew install ripgrep
+
 # Функция для копирования файла с переименованием существующего
 copy_with_rename() {
   local source_file="$1"
