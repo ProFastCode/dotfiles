@@ -32,6 +32,9 @@ copy_with_rename() {
 # Копирование .zshrc
 copy_with_rename ".zshrc" "$HOME/.zshrc"
 
+# Копирование .ruff.toml
+copy_with_rename ".ruff.toml" "$HOME/.ruff.toml"
+
 # Копирование директории .oh-my-zsh
 if [ -d "$HOME/.oh-my-zsh" ]; then
   # Генерируем новое имя для существующей директории
